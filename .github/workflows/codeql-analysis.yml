@@ -15,7 +15,7 @@ on:
   push:
     branches: [main]
     paths:
-      - .github/workflows/ci.yml
+      - .github/workflows/codeql-analysis.yml
       - '**/cfn/*.yml'
       - '**.py'
       - '**/requirements*.txt'
