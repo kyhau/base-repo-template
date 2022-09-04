@@ -21,15 +21,13 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@master
-
       - name: Run yamllint
         run: yamllint -c ./.github/linters/.yaml-lint.yml -f parsable --format standard .github/
-
-      # - name: Run cfn-lint
-      #   run: |
-      #     pip install cfn-lint
-      #     cp .github/linters/.cfnlintrc .
-      #     cfn-lint ./**/cfn/*.yml
+        # - name: Run cfn-lint
+        #   run: |
+        #     pip install cfn-lint
+        #     cp .github/linters/.cfnlintrc .
+        #     cfn-lint ./**/cfn/*.yml
 
   build:
     needs: lint
