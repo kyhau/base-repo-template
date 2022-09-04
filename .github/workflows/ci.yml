@@ -3,12 +3,12 @@ name: CI
 on:
   push:
     # branches: [main]
-    paths:
-      - .github/**
-      # - .github/workflows/ci.yml
-      - '**/cfn/*.yml'
-      - '**.py'
-      - '**/requirements*.txt'
+    # paths:
+    #   - .github/**
+    #   - .github/workflows/ci.yml
+    #   - '**/cfn/*.yml'
+    #   - '**.py'
+    #   - '**/requirements*.txt'
     paths-ignore:
       - '**.json'
       - '**.md'
