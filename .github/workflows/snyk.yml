@@ -1,13 +1,13 @@
 name: Synk
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/snyk.yml
-      - '**/cfn/*.yml'
-      - '**.py'
-      - '**/requirements*.txt'
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - .github/workflows/snyk.yml
+  #     - '**/cfn/*.yml'
+  #     - '**.py'
+  #     - '**/requirements*.txt'
   workflow_dispatch:
 
 defaults:
