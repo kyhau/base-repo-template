@@ -2,7 +2,6 @@ coverage:
   precision: 2
   round: down
   range: 70...100
-
   status:
     project: true
     patch: false
@@ -10,6 +9,3 @@ coverage:
 comment:
   layout: "header, diff"
   behavior: default
-ignore:
-  - "**/file_io.py"
-  - "**/selector.py"
