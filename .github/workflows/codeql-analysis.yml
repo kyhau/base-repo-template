@@ -14,6 +14,11 @@ name: CodeQL
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - .github/workflows/ci.yml
+      - '**/cfn/*.yml'
+      - '**.py'
+      - '**/requirements*.txt'
   schedule:
     - cron: '39 17 * * 4'
 
