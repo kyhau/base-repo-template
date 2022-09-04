@@ -1,10 +1,10 @@
 # base-repo-template
 
-[![githubactions](https://github.com/kyhau/base-repo-templates/workflows/CI/badge.svg)](https://github.com/kyhau/base-repo-templates/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/kyhau/base-repo-templates/branch/main/graph/badge.svg)](https://codecov.io/gh/kyhau/base-repo-templates)
-[![CodeQL](https://github.com/kyhau/base-repo-templates/workflows/CodeQL/badge.svg)](https://github.com/kyhau/base-repo-templates/actions/workflows/codeql-analysis.yml)
+[![githubactions](https://github.com/kyhau/base-repo-template/workflows/CI/badge.svg)](https://github.com/kyhau/base-repo-template/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/kyhau/base-repo-template/branch/main/graph/badge.svg)](https://codecov.io/gh/kyhau/base-repo-template)
+[![CodeQL](https://github.com/kyhau/base-repo-template/workflows/CodeQL/badge.svg)](https://github.com/kyhau/base-repo-template/actions/workflows/codeql-analysis.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://en.wikipedia.org/wiki/MIT_License)
-[![Synk](https://github.com/kyhau/base-repo-templates/workflows/Synk/badge.svg)](https://github.com/kyhau/base-repo-templates/actions/workflows/synk.yml)
+[![Synk](https://github.com/kyhau/base-repo-template/workflows/Synk/badge.svg)](https://github.com/kyhau/base-repo-template/actions/workflows/synk.yml)
 
 This repository ...
 
