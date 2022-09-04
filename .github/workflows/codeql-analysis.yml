@@ -21,6 +21,7 @@ on:
       - '**/requirements*.txt'
   schedule:
     - cron: '39 17 * * 4'
+  workflow_dispatch:
 
 jobs:
   analyze:

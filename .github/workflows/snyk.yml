@@ -8,6 +8,7 @@ on:
       - '**/cfn/*.yml'
       - '**.py'
       - '**/requirements*.txt'
+  workflow_dispatch:
 
 defaults:
   run:
